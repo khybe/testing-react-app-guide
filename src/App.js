@@ -1,14 +1,10 @@
+import Greeting from "./components/Greeting";
+import "./App.css";
+
 function App() {
   return (
     <div className="App">
-      <a
-        className="App-link"
-        href="http://reactjs.org"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Learn React
-      </a>
+      <Greeting />
     </div>
   );
 }
