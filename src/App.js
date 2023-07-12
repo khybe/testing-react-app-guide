@@ -1,5 +1,16 @@
 function App() {
-  return <h1>A simple react starting project copy.</h1>;
+  return (
+    <div className="App">
+      <a
+        className="App-link"
+        href="http://reactjs.org"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Learn React
+      </a>
+    </div>
+  );
 }
 
 export default App;
